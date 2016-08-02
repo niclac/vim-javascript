@@ -5,4 +5,4 @@
 
 setlocal iskeyword+=$ suffixesadd+=.js
 
-let b:undo_ftplugin .= ' | setlocal iskeyword< suffixesadd<'
+let b:undo_ftplugin = 'setlocal iskeyword< suffixesadd<'
